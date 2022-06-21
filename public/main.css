@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+Table .table-title th {
+  background-color: rgb(18, 67, 172);
+  color: white;
+  font-size: 12px;
+}
+.excel-icon {
+  color: white;
+}
+.button-export-wrapper button {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.buttons-wrapper button {
+  margin-right: 20px;
+}
+.page-title {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar {
+  border-bottom: solid 1px;
+  border-color: black;
+}
