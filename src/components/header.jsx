@@ -2,7 +2,7 @@ import ModalsButtons from "./ModalsButtons";
 const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-sm  navbar-light  mb-2 p-4 ">
+      <nav className="navbar navbar-expand-sm  navbar-light  p-4 ">
         <a className="navbar-brand" href="#">
           <img src="/AlderecafullWhite.png" alt="" width={100} />
         </a>

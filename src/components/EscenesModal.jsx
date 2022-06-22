@@ -21,29 +21,12 @@ const EscenesModal = () => {
             ></button>
           </div>
           <div class="modal-body">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="flexRadioDefault1"
-                checked
-              />
-              <label class="form-check-label" for="flexRadioDefault1">
-                Crear un escenario
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="flexRadioDefault"
-                id="flexRadioDefault2"
-              />
-              <label class="form-check-label" for="flexRadioDefault2">
-                Seleccionar un escenario
-              </label>
-            </div>
+            <select class="form-select" aria-label="Default select example">
+              <option selected value="1">
+                Crear escenario
+              </option>
+              <option value="2">Seleccionar escenario</option>
+            </select>
           </div>
           <div class="modal-footer">
             <button

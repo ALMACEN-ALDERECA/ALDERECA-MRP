@@ -1,31 +1,28 @@
-import GraphicsButton from "./GraphicsButton";
-import OptionsButtons from "./OptionsButtons";
-
 const HeadersButtons = () => {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col">
-          <button
-            className="btn btn-primary mb-1 ms-1 shadow"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasScrolling"
-            aria-controls="offcanvasScrolling"
-          >
-            Opciones
-          </button>
+          <div className="d-flex justify-content-start">
+            <button
+              className="btn btn-primary my-2 shadow"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling"
+              aria-controls="offcanvasScrolling"
+            >
+              Opciones
+            </button>
+          </div>
         </div>
-        <div className="col">
-          <div class="form-check form-switch d-flex justify-content-end p-2">
+        <div className="col align-self-center">
+          <div class="form-check form-switch d-flex justify-content-end ">
             <input
-              class="form-check-input "
+              class="form-check-input shadow"
               type="checkbox"
               id="flexSwitchCheckDefault"
             />
-            <label class="form-check-label ps-1" for="flexSwitchCheckDefault">
-              Activar/Desactivar graficos
-            </label>
+            <i class="fa-solid fa-chart-line ps-2 pt-1 me-1"></i>
           </div>
         </div>
       </div>
