@@ -1,8 +1,9 @@
-import React from "react";
-import Loading from "./Loading";
+import React from 'react';
+import Loading from './Loading';
 
 const Posts = ({ data, loading }) => {
   if (loading) {
+    return <Loading />;
   }
   return (
     <tbody>
@@ -21,7 +22,7 @@ const Posts = ({ data, loading }) => {
           <td></td>
           <td></td>
           <td></td>
-          <td>{post.lastPurDat == null ? "Vacio" : post.lastPurDat}</td>
+          <td>{post.lastPurDat == null ? 'Vacio' : post.lastPurDat}</td>
         </tr>
       ))}
       {loading && <Loading />}

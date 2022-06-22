@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Posts from "./Posts";
-import Pagination from "./Pagination";
-import Loading from "./Loading";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import Posts from './Posts';
+import Pagination from './Pagination';
 
 function Table() {
-  const campUrl = "http://localhost:8081/campos";
+  const campUrl = 'http://localhost:8081/campos';
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState([false]);
@@ -30,9 +29,9 @@ function Table() {
   const currentPost = data.slice(indexOfFirstPost, indexofLastPost);
 
   return (
-    <div className="table-responsive">
-      <table className="table align-middle table-striped table-hover">
-        <thead className="table-title">
+    <div className='table-responsive'>
+      <table className='table align-middle table-striped table-hover'>
+        <thead className='table-title'>
           <tr>
             <th>#Articulo</th>
             <th>Descripcion</th>

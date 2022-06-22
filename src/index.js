@@ -1,14 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
-import Table from "./components/table";
-import Modals from "./components/modals";
-import Header from "./components/header";
-import Options from "./components/Options";
-import EscenesModal from "./components/EscenesModal";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import Table from './components/table';
+import Modals from './components/modals';
+import Header from './components/header';
+import Options from './components/Options';
+import EscenesModal from './components/EscenesModal';
+import css from './App.css'; // Si se quita no lee el APP,CSS
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />

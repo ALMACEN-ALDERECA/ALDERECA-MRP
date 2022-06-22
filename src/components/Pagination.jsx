@@ -1,6 +1,4 @@
-import React from "react";
-import Table from "./table";
-
+import React from 'react';
 const Pagination = ({ PostPerPage, totalPosT }) => {
   const pageNumbers = [];
 
@@ -10,10 +8,10 @@ const Pagination = ({ PostPerPage, totalPosT }) => {
 
   return (
     <nav>
-      <ul className="pagination">
+      <ul className='pagination'>
         {pageNumbers.map((number) => (
-          <li key={number} className="page-item">
-            <a href="!#" className="page-link">
+          <li key={number} className='page-item'>
+            <a href='!#' className='page-link'>
               {number}
             </a>
           </li>

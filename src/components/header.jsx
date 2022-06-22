@@ -1,14 +1,18 @@
-import ModalsButtons from "./ModalsButtons";
+import { Fragment } from 'react';
 const Header = () => {
   return (
-    <header>
-      <nav className="navbar navbar-expand-sm  navbar-light bg-secondary mb-4 p-4 ">
-        <a className="navbar-brand" href="#">
-          <img src="/AlderecafullWhite.png" alt="" width={100} />
-        </a>
-        <h1 className="m-auto text-white page-title">ALDERECA MRP</h1>
+    <Fragment>
+      <nav id='nav' className='navbar navbar-expand-sm navbar-light p-4 '>
+        <div className='container-fluid'>
+          <a className='navbar-brand' href='#'>
+            <img src='/AlderecafullWhite.png' alt='' width={100} />
+          </a>
+          <h1 className='m-auto text-white page-title'>
+            Planificación de los requerimientos de material
+          </h1>
+        </div>
       </nav>
-    </header>
+    </Fragment>
   );
 };
 export default Header;
