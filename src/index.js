@@ -6,14 +6,17 @@ import Table from "./components/table";
 import Modals from "./components/modals";
 import Header from "./components/header";
 import Options from "./components/Options";
-import EscenesModal from "./components/EscenesModal";
+
+import HeadersButtons from "./components/HeadersButtons";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
+    <HeadersButtons />
     <Options />
     <Table />
+    <Modals />
   </React.StrictMode>
 );
 

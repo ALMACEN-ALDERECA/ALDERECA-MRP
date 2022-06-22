@@ -15,9 +15,6 @@ const ExportButtons = () => {
           Importar parametros
         </i>
       </button>
-      <button className="btn btn-success btn-sm shadow" type="button">
-        <i class="fa-solid fa-file-excel excel-icon"> Exportar paramametros</i>
-      </button>
     </div>
   );
 };
