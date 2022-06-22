@@ -1,8 +1,16 @@
+import React, { Fragment } from 'react';
+import spin from './Loading.gif';
+
 const Loading = () => {
   return (
-    <div className=" alert alert-info">
-      <h5>Cargando...</h5>
-    </div>
+    <Fragment>
+      <img
+        src={spin}
+        alt='Loading...'
+        className='inline-block align-middle'
+        style={{ width: '200px', margin: 'auto' }}
+      />
+    </Fragment>
   );
 };
 
