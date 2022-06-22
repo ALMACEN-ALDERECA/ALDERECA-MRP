@@ -4,16 +4,6 @@ import ExportButtons from './ExportButtons';
 const Options = () => {
   return (
     <div className='Options-wrapper'>
-      <button
-        className='btn btn-primary my-2 ms-2 shadow'
-        type='button'
-        data-bs-toggle='offcanvas'
-        data-bs-target='#offcanvasScrolling'
-        aria-controls='offcanvasScrolling'
-      >
-        Opciones
-      </button>
-
       <div
         className='offcanvas offcanvas-start'
         data-bs-scroll='true'
@@ -31,10 +21,12 @@ const Options = () => {
           </h5>
           <button
             type='button'
-            class='btn-close text-reset'
+            class='close'
             data-bs-dismiss='offcanvas'
             aria-label='Close'
-          ></button>
+          >
+            <span>×</span>
+          </button>
         </div>
         <div className='offcanvas-body'>
           <ModalsButtons />

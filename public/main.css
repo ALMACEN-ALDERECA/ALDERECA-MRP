@@ -24,6 +24,27 @@ Table .table-title th {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .navbar {
+  background-color: #052b49;
   border-bottom: solid 1px;
   border-color: black;
+}
+.offcanvas-header {
+  background-color: rgb(18, 67, 172);
+}
+.offcanvas-header button {
+  background-color: transparent;
+  border: none;
+}
+
+.close {
+  float: right;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.7;
+}
+.close:hover {
+  opacity: 1;
 }

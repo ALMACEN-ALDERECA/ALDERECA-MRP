@@ -9,12 +9,16 @@ import Options from './components/Options';
 import EscenesModal from './components/EscenesModal';
 import css from './App.css'; // Si se quita no lee el APP,CSS
 
+import HeadersButtons from './components/HeadersButtons';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <HeadersButtons />
     <Options />
     <Table />
+    <Modals />
   </React.StrictMode>
 );
 
