@@ -1,34 +1,34 @@
-import ModalsButtons from './ModalsButtons';
-import ExportButtons from './ExportButtons';
+import ModalsButtons from "./ModalsButtons";
+import ExportButtons from "./ExportButtons";
 
 const Options = () => {
   return (
-    <div className='Options-wrapper'>
+    <div className="Options-wrapper">
       <div
-        className='offcanvas offcanvas-start'
-        data-bs-scroll='true'
-        data-bs-backdrop='false'
-        tabindex='-1'
-        id='offcanvasScrolling'
-        aria-labelledby='offcanvasScrollingLabel'
+        className="offcanvas h-50 offcanvas-start border"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasScrolling"
+        aria-labelledby="offcanvasScrollingLabel"
       >
-        <div className='offcanvas-header bg-azul'>
+        <div className="offcanvas-header bg-azul">
           <h5
-            className='offcanvas-title text-white'
-            id='offcanvasScrollingLabel'
+            className="offcanvas-title text-white"
+            id="offcanvasScrollingLabel"
           >
             Opciones
           </h5>
           <button
-            type='button'
-            class='close'
-            data-bs-dismiss='offcanvas'
-            aria-label='Close'
+            type="button"
+            class="close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
           >
             <span>×</span>
           </button>
         </div>
-        <div className='offcanvas-body'>
+        <div className="offcanvas-body">
           <ModalsButtons />
           <ExportButtons />
         </div>
