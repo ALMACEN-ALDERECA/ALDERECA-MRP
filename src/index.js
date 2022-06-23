@@ -6,7 +6,6 @@ import Table from "./components/table";
 import Modals from "./components/modals";
 import Header from "./components/header";
 import Options from "./components/Options";
-import Escenestable from "./components/Escenestable";
 
 import HeadersButtons from "./components/HeadersButtons";
 
@@ -17,6 +16,7 @@ root.render(
     <HeadersButtons />
     <Options />
     <Modals />
+    <Table />
   </React.StrictMode>
 );
 

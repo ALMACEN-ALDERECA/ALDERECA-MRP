@@ -9,7 +9,7 @@ function Table() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState([false]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage, setPostPerPage] = useState(20);
+  const [postPerPage, setPostPerPage] = useState(30);
 
   //This is the Method Get
   useEffect(() => {
@@ -53,9 +53,9 @@ function Table() {
             <th></th>
           </tr>
         </thead>
+        {/*  <Posts data={currentPost} loading={loading} />
+        <Pagination postsPerPage={postPerPage} totalPost={data.length} /> */}
       </table>
-      <Posts data={currentPost} loading={loading} />
-      <Pagination postPerPage={postPerPage} totalPosT={data.length} />
     </div>
   );
 }
