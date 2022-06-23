@@ -28,7 +28,7 @@ const Options = () => {
             <span>×</span>
           </button>
         </div>
-        <div className="offcanvas-body">
+        <div className="offcanvas-body px-0">
           <ModalsButtons />
           <ExportButtons />
         </div>

@@ -53,8 +53,8 @@ function Table() {
             <th></th>
           </tr>
         </thead>
-        <Posts data={currentPost} loading={loading} />
       </table>
+      <Posts data={currentPost} loading={loading} />
       <Pagination postPerPage={postPerPage} totalPosT={data.length} />
     </div>
   );
