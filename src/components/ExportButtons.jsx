@@ -1,31 +1,30 @@
-import bootstrap from "bootstrap";
+import bootstrap from 'bootstrap';
 
 const ExportButtons = () => {
   return (
-    <div className="button-export-wrapper">
+    <div className='button-export-wrapper mt-3'>
       <button
-        className="btn btn-success btn-sm shadow w-100 text-start"
-        type="button"
+        className='btn btn-success btn-md shadow w-100 mx-0 text-start'
+        type='button'
       >
-        <i class="fa-solid fa-file-excel excel-icon"> Exportar reporte</i>
+        <i class='fa-solid fa-file-excel excel-icon'></i> Exportar reporte
       </button>
 
       <button
-        type="button"
-        class="btn btn-success btn-sm shadow w-100 my-1 text-start"
-        data-toggle="modal"
-        data-target="#import"
+        type='button'
+        class='btn btn-success btn-md shadow w-100 mx-0 my-2 text-start'
+        data-toggle='modal'
+        data-target='#import'
       >
-        <i className="fa-solid fa-file-excel excel-icon ">
-          Importar parametros
-        </i>
+        <i className='fa-solid fa-file-excel excel-icon'></i> Importar
+        parametros
       </button>
 
       <button
-        className="btn btn-success btn-sm shadow w-100 text-start"
-        type="button"
+        className='btn btn-success btn-md shadow mx-0 w-100 text-start'
+        type='button'
       >
-        <i class="fa-solid fa-file-excel excel-icon"> Exportar paramametros</i>
+        <i class='fa-solid fa-file-excel excel-icon'></i> Exportar paramametros
       </button>
     </div>
   );

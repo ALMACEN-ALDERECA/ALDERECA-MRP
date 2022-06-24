@@ -1,6 +1,22 @@
+:root {
+  --bg-azul: #1243ac;
+  --text-white: #fff;
+}
+
+.bg-azul {
+  background-color: var(--bg-azul);
+  color: var(--text-white);
+}
+
+.bg-azul:hover {
+  color: var(--text-white);
+}
+
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 Table .table-title th {
@@ -21,7 +37,7 @@ Table .table-title th {
 }
 .page-title {
   text-transform: uppercase;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar {
   background-color: #052b49;
@@ -29,7 +45,7 @@ Table .table-title th {
   border-color: black;
 }
 .offcanvas-header {
-  background-color: rgb(18, 67, 172);
+  background-color: var(--bg-azul);
 }
 .offcanvas-header button {
   background-color: transparent;
