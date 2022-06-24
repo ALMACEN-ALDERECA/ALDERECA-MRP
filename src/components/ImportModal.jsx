@@ -1,39 +1,39 @@
-import MyDropzone from "./Dropzone";
+import MyDropzone from './Dropzone';
 
 const ImportModal = () => {
   return (
     <div>
       <div
-        className="modal fade h-25"
-        id="import"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="modelTitleId"
-        aria-hidden="true"
+        className='modal fade h-25'
+        id='import'
+        tabindex='-1'
+        role='dialog'
+        aria-labelledby='modelTitleId'
+        aria-hidden='true'
       >
-        <div class="modal-dialog  modal-dialog-centered h-50" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+        <div class='modal-dialog  modal-dialog-centered h-50' role='document'>
+          <div class='modal-content'>
+            <div class='modal-header'>
+              <h5 class='modal-title'>Modal title</h5>
               <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
+                type='button'
+                class='close'
+                data-dismiss='modal'
+                aria-label='Close'
               >
-                <span aria-hidden="true">&times;</span>
+                <span aria-hidden='true'>&times;</span>
               </button>
             </div>
-            <div class="modal-body"></div>
-            <div class="modal-footer">
+            <div class='modal-body'></div>
+            <div class='modal-footer'>
               <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
+                type='button'
+                class='btn btn-secondary'
+                data-dismiss='modal'
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
+              <button type='button' class='btn bg-azul'>
                 Save
               </button>
             </div>

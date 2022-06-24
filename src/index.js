@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
-import Table from "./components/table";
-import Modals from "./components/modals";
-import Header from "./components/header";
-import Options from "./components/Options";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import Table from './components/table';
+import Modals from './components/modals';
+import Header from './components/header';
+import Options from './components/Options';
 
-import HeadersButtons from "./components/HeadersButtons";
+import HeadersButtons from './components/HeadersButtons';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
