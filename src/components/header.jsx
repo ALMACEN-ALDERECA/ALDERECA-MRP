@@ -4,7 +4,7 @@ const Header = () => {
     <Fragment>
       <nav id="nav" className="navbar navbar-expand-sm navbar-light p-4 ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="!#">
             <img src="/AlderecafullWhite.png" alt="" width={100} />
           </a>
           <h1 className="m-auto text-white page-title">
