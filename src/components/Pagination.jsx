@@ -8,10 +8,10 @@ const Pagination = ({ postsPerPage, totalPost, paginate }) => {
   console.log(pageNumbers);
 
   return (
-    <nav className='Page navigation mx-4 my-4'>
+    <nav className='Page navigation'>
       <ul className='pagination justify-content-center pagination-sm'>
         <li class='page-item'>
-          <a class='page-link' href='#'>
+          <a class='page-link' href='!#'>
             Previous
           </a>
         </li>
@@ -25,7 +25,7 @@ const Pagination = ({ postsPerPage, totalPost, paginate }) => {
         ))}
 
         <li class='page-item'>
-          <a class='page-link' href='#'>
+          <a class='page-link' href='!#'>
             Next
           </a>
         </li>

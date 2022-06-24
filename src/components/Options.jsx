@@ -1,4 +1,3 @@
-import ModalsButtons from './ModalsButtons';
 import ExportButtons from './ExportButtons';
 
 const Options = () => {
@@ -29,7 +28,6 @@ const Options = () => {
           </button>
         </div>
         <div className='offcanvas-body px-0'>
-          <ModalsButtons />
           <ExportButtons />
         </div>
       </div>
