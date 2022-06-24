@@ -12,7 +12,7 @@ const Options = () => {
         id='offcanvasScrolling'
         aria-labelledby='offcanvasScrollingLabel'
       >
-        <div className='offcanvas-header bg-azul'>
+        <div className='offcanvas-header bg-azul text-center'>
           <h5
             className='offcanvas-title text-white'
             id='offcanvasScrollingLabel'

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Posts from "./Posts";
-import Pagination from "./Pagination";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import Posts from './Posts';
+import Pagination from './Pagination';
 
 function Table() {
-  const campUrl = "http://localhost:8081/campos";
+  const campUrl = 'http://localhost:8081/campos';
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState([false]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage, setPostPerPage] = useState(20);
+  const [postPerPage, setPostPerPage] = useState(30);
 
   //This is the Method Get
   useEffect(() => {
@@ -29,9 +29,9 @@ function Table() {
   const currentPost = data.slice(indexOfFirstPost, indexofLastPost);
 
   return (
-    <div className="table-responsive">
-      <table className="table align-middle table-striped table-hover">
-        <thead className="table-title">
+    <div className='table-responsive'>
+      <table className='table align-middle table-striped table-hover'>
+        <thead className='table-title'>
           <tr>
             <th>#Articulo</th>
             <th>Descripcion</th>
@@ -53,9 +53,9 @@ function Table() {
             <th></th>
           </tr>
         </thead>
+        {/*  <Posts data={currentPost} loading={loading} />
+        <Pagination postsPerPage={postPerPage} totalPost={data.length} /> */}
       </table>
-      <Posts data={currentPost} loading={loading} />
-      <Pagination postPerPage={postPerPage} totalPosT={data.length} />
     </div>
   );
 }
