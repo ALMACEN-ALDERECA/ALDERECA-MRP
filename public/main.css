@@ -22,6 +22,9 @@
 body {
   background-color: #e4e5e9;
 }
+table {
+  background-color: white;
+}
 
 Table .table-title th {
   background-color: rgb(18, 67, 172);
@@ -41,7 +44,7 @@ Table .table-title th {
 }
 .page-title {
   text-transform: uppercase;
-  font-family: 'Quicksand', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Quicksand", "Arial Narrow", Arial, sans-serif;
 }
 .navbar {
   background-color: #052b49;

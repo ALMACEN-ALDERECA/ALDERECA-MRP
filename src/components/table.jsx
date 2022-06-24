@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import Posts from './Posts';
-import Pagination from './Pagination';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import Posts from "./Posts";
+import Pagination from "./Pagination";
 
 function Table() {
-  const campUrl = 'http://localhost:8081/campos';
+  const campUrl = "http://localhost:8081/campos";
   const [data, setData] = useState([]);
 
   //Loading while the data is rendering
@@ -35,8 +35,11 @@ function Table() {
   const paginate = (pageNumbers) => setCurrentPage(pageNumbers);
 
   return (
-    <div className='table-responsive'>
+    <div className="table-responsive">
+      {/*The table is rendering in the component Post because it will be inserted by dynamically way in the nexts days*/}
       <Posts data={currentPost} loading={loading} />
+
+      {/*This component contains the pagination function*/}
       <Pagination
         postsPerPage={postPerPage}
         totalPost={data.length}

@@ -1,13 +1,13 @@
-import React from 'react';
-import Loading from './Loading';
+import React from "react";
+import Loading from "./Loading";
 
 const Posts = ({ data, loading }) => {
   if (loading) {
     return <Loading />;
   } else {
     return (
-      <table className='table align-middle table-striped table-hover'>
-        <thead className='table-title'>
+      <table className="table align-middle table-striped table-hover">
+        <thead className="table-title">
           <tr>
             <th>#Articulo</th>
             <th>Descripcion</th>
@@ -16,7 +16,7 @@ const Posts = ({ data, loading }) => {
             <th>On Hand</th>
             <th>Cantidad maxima</th>
             <th>Cantidad minima</th>
-            <th>Rotacion</th>
+            <th>Rotac ion</th>
             <th>Desviacion standard</th>
             <th>Regresion</th>
             <th>Proyeccion</th>
@@ -45,7 +45,7 @@ const Posts = ({ data, loading }) => {
               <td></td>
               <td></td>
               <td></td>
-              <td>{post.lastPurDat == null ? 'Vacio' : post.lastPurDat}</td>
+              <td>{post.lastPurDat == null ? "Vacio" : post.lastPurDat}</td>
             </tr>
           ))}
         </tbody>
