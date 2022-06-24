@@ -5,7 +5,7 @@ const Options = () => {
   return (
     <div className='Options-wrapper'>
       <div
-        className='offcanvas h-50 offcanvas-start'
+        className='offcanvas offcanvas-start'
         data-bs-scroll='true'
         data-bs-backdrop='false'
         tabindex='-1'

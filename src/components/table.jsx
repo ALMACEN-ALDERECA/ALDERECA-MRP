@@ -36,31 +36,7 @@ function Table() {
 
   return (
     <div className='table-responsive'>
-      <table className='table align-middle table-striped table-hover'>
-        <thead className='table-title'>
-          <tr>
-            <th>#Articulo</th>
-            <th>Descripcion</th>
-            <th>#Fabricante</th>
-            <th>#Original</th>
-            <th>On Hand</th>
-            <th>Cantidad maxima</th>
-            <th>Cantidad minima</th>
-            <th>Rotacion</th>
-            <th>Desviacion standard</th>
-            <th>Regresion</th>
-            <th>Proyeccion</th>
-            <th>StockOut</th>
-            <th>OverStock</th>
-            <th>Ultima fecha de compra</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
-        <Posts data={currentPost} loading={loading} />
-      </table>
+      <Posts data={currentPost} loading={loading} />
       <Pagination
         postsPerPage={postPerPage}
         totalPost={data.length}
