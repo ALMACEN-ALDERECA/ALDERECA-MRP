@@ -1,32 +1,49 @@
 const HeadersButtons = () => {
   return (
-    <div className='container-fluid'>
-      <div className='row'>
-        <div className='col'>
-          <div className='d-flex justify-content-start'>
-            <button
-              className='btn bg-azul my-2 shadow'
-              type='button'
-              data-bs-toggle='offcanvas'
-              data-bs-target='#offcanvasScrolling'
-              aria-controls='offcanvasScrolling'
-            >
-              Opciones
-            </button>
-          </div>
-        </div>
-        <div className='col align-self-center'>
-          <div class='form-check form-switch d-flex justify-content-end '>
+    <nav class='navbar navbar-expand-lg navbar-light bg-light'>
+      <div class='container-fluid'>
+        {/* <a class='navbar-brand' href='#'>
+          Navbar
+        </a> */}
+        <button
+          class='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarNav'
+          aria-controls='navbarNav'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div
+          class='collapse navbar-collapse justify-content-between'
+          id='navbarNav'
+        >
+          <ul class='navbar-nav'>
+            <li class='nav-item'>
+              <button
+                className='border-0 bg-white'
+                type='button'
+                data-bs-toggle='offcanvas'
+                data-bs-target='#offcanvasScrolling'
+                aria-controls='offcanvasScrolling'
+              >
+                Opciones
+              </button>
+            </li>
+          </ul>
+          <li class='nav-item list-group-numbered'>
             <input
               class='form-check-input shadow'
               type='checkbox'
               id='flexSwitchCheckDefault'
             />
             <i class='fa-solid fa-chart-line ps-2 pt-1 me-1'></i>
-          </div>
+          </li>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 export default HeadersButtons;

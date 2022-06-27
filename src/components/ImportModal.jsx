@@ -24,7 +24,16 @@ const ImportModal = () => {
                 <span aria-hidden='true'>&times;</span>
               </button>
             </div>
-            <div class='modal-body'></div>
+            <div class='modal-body'>
+              <div class='file-upload-wrapper'>
+                <input
+                  type='file'
+                  id='input-file-now-custom-2'
+                  class='file-upload'
+                  data-height='500'
+                />
+              </div>
+            </div>
             <div class='modal-footer'>
               <button
                 type='button'
