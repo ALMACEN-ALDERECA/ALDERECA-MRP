@@ -10,7 +10,7 @@ const CreateEscenesTable = () => {
         name=""
         id=""
         value={CreateOptionsState}
-        className="form-select mb-3 w-25"
+        className="form-select mb-2 w-25"
         onChange={(e) => {
           const selectedCreateOptions = e.target.value;
           setCreateOptionsState(selectedCreateOptions);
@@ -29,6 +29,9 @@ const CreateEscenesTable = () => {
           aria-label="Nombre"
           aria-describedby="basic-addon1"
         />
+        <button type="submit" className="btn btn-primary btn-sm ms-1">
+          Buscar
+        </button>
       </div>
 
       <div className="table-responsive">

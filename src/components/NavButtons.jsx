@@ -31,6 +31,14 @@ const NavButtons = () => {
               >
                 Opciones
               </button>
+              <button
+                type='button'
+                class='btn btn-light   ms-2 btn-xs'
+                data-toggle='modal'
+                data-target='#modelId'
+              >
+                Analisis por mes
+              </button>
             </li>
           </ul>
 

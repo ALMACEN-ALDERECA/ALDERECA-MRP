@@ -1,20 +1,20 @@
-import MyDropzone from "./Dropzone";
+import MonthsTable from "./MonthsTable";
 
-const ImportModal = () => {
+const MonthsModal = () => {
   return (
     <div>
       <div
-        className="modal fade h-25"
-        id="import"
+        class="modal fade"
+        id="modelId"
         tabindex="-1"
         role="dialog"
         aria-labelledby="modelTitleId"
         aria-hidden="true"
       >
-        <div class="modal-dialog  modal-dialog-centered h-50" role="document">
+        <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Importar</h5>
+              <h5 class="modal-title">Recomedacion de compra por mes</h5>
               <button
                 type="button"
                 class="close"
@@ -25,14 +25,7 @@ const ImportModal = () => {
               </button>
             </div>
             <div class="modal-body">
-              <div class="file-upload-wrapper">
-                <input
-                  type="file"
-                  id="input-file-now-custom-2"
-                  class="file-upload"
-                  data-height="500"
-                />
-              </div>
+              <MonthsTable />
             </div>
             <div class="modal-footer">
               <button
@@ -42,7 +35,7 @@ const ImportModal = () => {
               >
                 Close
               </button>
-              <button type="button" class="btn bg-azul">
+              <button type="button" class="btn btn-primary">
                 Save
               </button>
             </div>
@@ -52,4 +45,5 @@ const ImportModal = () => {
     </div>
   );
 };
-export default ImportModal;
+
+export default MonthsModal;
