@@ -1,4 +1,4 @@
-const HeadersButtons = () => {
+const NavButtons = () => {
   return (
     <nav class='navbar navbar-expand-lg navbar-light bg-light'>
       <div class='container-fluid'>
@@ -33,6 +33,7 @@ const HeadersButtons = () => {
               </button>
             </li>
           </ul>
+
           <li class='nav-item list-group-numbered'>
             <input
               class='form-check-input shadow'
@@ -40,10 +41,11 @@ const HeadersButtons = () => {
               id='flexSwitchCheckDefault'
             />
             <i class='fa-solid fa-chart-line ps-2 pt-1 me-1'></i>
+            Gráficos
           </li>
         </div>
       </div>
     </nav>
   );
 };
-export default HeadersButtons;
+export default NavButtons;

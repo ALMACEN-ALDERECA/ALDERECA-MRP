@@ -7,13 +7,13 @@ import Modals from './components/modals';
 import Header from './components/header';
 import Options from './components/Options';
 
-import HeadersButtons from './components/HeadersButtons';
+import Nav from './components/NavButtons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <HeadersButtons />
+    <Nav />
     <Options />
     <Modals />
     <Table />
