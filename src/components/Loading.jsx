@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import spin from './Loading.gif';
+import spin from '../assets/loadRing.gif';
 
 const Loading = () => {
   return (
@@ -11,7 +11,7 @@ const Loading = () => {
               src={spin}
               alt='Loading...'
               className='inline-block align-middle'
-              style={{ width: '200px', margin: 'auto' }}
+              style={{ width: '200px', margin: '14% auto' }}
             />
           </div>
         </div>
