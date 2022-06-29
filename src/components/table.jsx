@@ -4,7 +4,7 @@ import Posts from './Posts';
 import Pagination from './Pagination';
 
 function Table() {
-  const campUrl = 'http://localhost:8081/campos';
+  const campUrl = 'http://localhost:8081/oitm';
   const [data, setData] = useState([]);
 
   //Loading while the data is rendering

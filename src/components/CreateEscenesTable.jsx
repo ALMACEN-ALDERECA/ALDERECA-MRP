@@ -1,42 +1,42 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const CreateEscenesTable = () => {
-  const [CreateOptionsState, setCreateOptionsState] = useState("");
+  const [CreateOptionsState, setCreateOptionsState] = useState('');
 
   return (
     <div>
       <label>Tipo de busqueda</label>
       <select
-        name=""
-        id=""
+        name=''
+        id=''
         value={CreateOptionsState}
-        className="form-select mb-2 w-25"
+        className='form-select mb-2 w-25'
         onChange={(e) => {
           const selectedCreateOptions = e.target.value;
           setCreateOptionsState(selectedCreateOptions);
         }}
       >
-        <option value="Marca">Marca</option>
-        <option value="Fabricante">Fabricante</option>
-        <option value="Descripcion">Descripcion</option>
+        <option value='Marca'>Marca</option>
+        <option value='Fabricante'>Fabricante</option>
+        <option value='Descripcion'>Descripcion</option>
       </select>
 
-      <div class="input-group my-3 w-75">
+      <div class='input-group my-3 w-75'>
         <input
-          type="text"
-          className="form-control"
+          type='text'
+          className='form-control'
           placeholder={CreateOptionsState}
-          aria-label="Nombre"
-          aria-describedby="basic-addon1"
+          aria-label='Nombre'
+          aria-describedby='basic-addon1'
         />
-        <button type="submit" className="btn btn-primary btn-sm ms-1">
+        <button type='submit' className='btn btn-primary btn-sm ms-1'>
           Buscar
         </button>
       </div>
 
-      <div className="table-responsive">
-        <table className="table align-middle table-striped table-hover">
-          <thead className="table-title">
+      <div className='table-responsive'>
+        <table className='table align-middle table-striped table-hover'>
+          <thead className='table-title'>
             <tr>
               <th>Nombre</th>
               <th>Descripcion</th>

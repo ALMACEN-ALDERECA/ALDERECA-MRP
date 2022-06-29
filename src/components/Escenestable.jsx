@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Loading from './Loading';
 const Escenestable = () => {
-  const campUrl = 'http://localhost:8081/escenarios';
+  const campUrl = 'http://localhost:8081/arescenarios';
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
